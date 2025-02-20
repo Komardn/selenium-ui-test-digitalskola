@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "chromedriver": "^133.0.1",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.28.1",
+    "webdriver": "^9.9.1"
+  },
+  "name": "9.-web-ui-automation-fundamental",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
