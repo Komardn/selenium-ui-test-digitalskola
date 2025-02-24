@@ -1,0 +1,21 @@
+{
+  "name": "seleniumdigital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/saucedemo-mocha-hooks.js -t 0",
+    "test:all": "mocha",
+    "checkout": "mocha test/checkout/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "resemblejs": "^5.0.0",
+    "selenium-webdriver": "^4.28.1",
+    "seleniumdigital": "file:"
+  },
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  }
+}
