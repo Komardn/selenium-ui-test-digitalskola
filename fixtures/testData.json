@@ -1,0 +1,30 @@
+{
+  "baseUrl": "https://www.saucedemo.com/",
+  "validUser": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalidUser": {
+    "username": "invalid_user",
+    "password": "invalid_password"
+  },
+  "assertTitle": "Products",
+  "titleError": "Title tidak sesuai!",
+  "checkoutData": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "postalCode": "12345"
+  },
+  "messages": {
+    "expectedLoginError": "Epic sadface: Username and password do not match any user in this service",
+    "loginError": "Login gagal!",
+    "checkoutSuccess": "Thank you for your order!"
+  },
+  "log": {
+    "LoginSuccess": "Login berhasil!",
+    "LoginFailed": "Login gagal!",
+    "AddItemSuccess": "Item berhasil ditambahkan ke keranjang!",
+    "VerifyItemSuccess": "Item di keranjang sesuai!",
+    "CheckoutSuccess": "Checkout berhasil!"
+  }
+}

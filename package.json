@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/saucedemo-mocha-hooks.js -t 0",
+    "test": "mocha test/saucedemoTest.js -t 0",
     "test:all": "mocha",
-    "checkout": "mocha test/checkout/*.js"
+    "checkout": "mocha test/checkout/*.js",
+    "test-parallel": "mocha test/saucedemoTest.js --parallel"
   },
   "author": "",
   "license": "ISC",
